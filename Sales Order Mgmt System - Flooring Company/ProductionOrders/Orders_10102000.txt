@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCost,PerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,test,MI,5.75,Wood,100,5.15,4.75,515.00,475.00,56.93,1046.93

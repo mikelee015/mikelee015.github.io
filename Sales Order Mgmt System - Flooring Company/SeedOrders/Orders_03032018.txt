@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCost,PerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,PeggySue,MI,5.75,Tile,100.00,3.50,4.15,350.00,415.00,43.99,808.99

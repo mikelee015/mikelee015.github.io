@@ -1,0 +1,5 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCost,PerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Wise,OH,6.25,Wood,100.00,5.15,4.75,515.00,475.00,61.88,1051.88
+2,Mike,PA,6.75,Carpet,100.00,2.25,2.10,225.00,210.00,29.36,464.36
+3,Peggy,MI,5.75,Tile,100.00,3.50,4.15,350.00,415.00,43.99,808.99
+4,Mary,IN,6.00,Tile,100.00,3.50,4.15,350.00,415.00,45.90,810.90

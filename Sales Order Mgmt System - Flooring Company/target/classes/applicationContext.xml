@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans.xsd
+          http://www.springframework.org/schema/mvc
+          http://www.springframework.org/schema/mvc/spring-mvc.xsd
+          http://www.springframework.org/schema/tx
+          http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+          http://www.springframework.org/schema/context
+          http://www.springframework.org/schema/context/spring-context.xsd
+          http://www.springframework.org/schema/aop  
+          http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+
+    <!-- Bean definitions go here -->
+    
+    <bean id="io" class="com.mycompany.flooringmaster.ui.ConsoleIO"/>
+    
+    <bean id="view" class="com.mycompany.flooringmaster.ui.FloorViewEnglish">
+        <constructor-arg ref="io"/>
+    </bean>
+    
+    <bean id="orderdao" class="com.mycompany.flooringmaster.daos.OrdersDaoFileImpl">
+        <constructor-arg value="ProductionOrders"/>
+    </bean>
+    
+    <bean id="taxdao" class="com.mycompany.flooringmaster.daos.StateTaxDaoFileImpl">
+        <constructor-arg value="StateTaxes.txt"/>
+    </bean>
+    
+    <bean id="productdao" class="com.mycompany.flooringmaster.daos.ProductDaoFileImpl">
+        <constructor-arg value="Products.txt"/>
+    </bean>
+    
+    <bean id="service" class="com.mycompany.flooringmaster.service.FloorServiceImpl">
+        <constructor-arg ref="orderdao"/>
+        <constructor-arg ref="taxdao"/>
+        <constructor-arg ref="productdao"/>
+    </bean>
+   
+    <bean id="controller" class="com.mycompany.flooringmaster.controller.FloorController">
+        <constructor-arg ref="view"/>
+        <constructor-arg ref="service"/>
+    </bean> 
+       
+</beans>

@@ -1,0 +1,6 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCost,PerSquareFoot,MaterialCost,LaborCost,Tax,Total1,A,OH,6.25,Carpet,300.00,2.25,2.10,675.00,630.00,81.56,1386.56
+2,B,OH,6.25,Carpet,300.00,2.25,2.10,675.00,630.00,81.56,1386.56
+3,C,OH,6.25,Carpet,300.00,2.25,2.10,675.00,630.00,81.56,1386.56
+4,D,OH,6.25,Carpet,300.00,2.25,2.10,675.00,630.00,81.56,1386.56
+5,E,OH,6.25,Carpet,300.00,2.25,2.10,675.00,630.00,81.56,1386.56
+6,Bob,IN,6.00,Wood,100,5.15,4.75,515.00,475.00,59.40,1049.40

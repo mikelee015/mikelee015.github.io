@@ -1,0 +1,8 @@
+com/mycompany/flooringmaster/daos/StateTaxDaoFileImplTest.class
+com/mycompany/flooringmaster/daos/ProductDaoInMemo.class
+com/mycompany/flooringmaster/daos/AlwaysFailOrderDao.class
+com/mycompany/flooringmaster/daos/ProductDaoFileImplTest.class
+com/mycompany/flooringmaster/daos/OrdersDaoFileImplTest.class
+com/mycompany/flooringmaster/service/FloorServiceImplTest.class
+com/mycompany/flooringmaster/daos/OrdersDaoInMemo.class
+com/mycompany/flooringmaster/daos/StateTaxDaoInMemo.class
